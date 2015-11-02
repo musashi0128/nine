@@ -1,0 +1,66 @@
+/* slideボックス構成 */
+
+.slide-box {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+.section {
+	width: 830px;
+	height: 370px;
+	position: relative;
+	margin: 50px 85px 50px 85px;
+}
+
+.sectionContent {
+	width: 530px;
+	float: left;
+	height: 370px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.sectionContent2 {
+	width: 300px;
+	float: right;
+	height: 370px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.bx-wrapper .bx-pager {
+	text-align: left;
+	font-size: 2em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+	
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #dbdbdb;
+	text-indent: -9999px;
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	outline: 0;
+	border-radius: 10px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #4a4a4a;
+}
+/* flashボックスここまで */
