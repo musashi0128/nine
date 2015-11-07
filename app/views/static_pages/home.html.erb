@@ -1,22 +1,28 @@
-<div class="slide-box">
-  <div id="gallery" class="section">
-    <div class="sectionContent">
-	    <ul id="photoGallery">
-		    <li><%= link_to image_tag("slide/nike.jpg", size: "530x370", alt: "NIKE 1 LOVE トラフ建築設計事務所"), root_path %></li>
-		    <li><%= link_to image_tag("slide/lanvin.jpg", size: "530x370", alt: "Lanvin Boutique Ginza 中村拓志"), root_path %></li>
-		    <li><%= link_to image_tag("slide/housen.jpg", size: "530x370", alt: "HouseN 藤本壮介"), root_path %></li>
-		    <li><%= link_to image_tag("slide/nike.jpg", size: "530x370", alt: "NIKE 1 LOVE"), root_path %></li>
-		    <li><%= link_to image_tag("slide/nike.jpg", size: "530x370", alt: "NIKE 1 LOVE"), root_path %></li>
-	    </ul>
-    </div>
-    <div class="sectionContent2">
-	    <ul id="photoGallery2">
-		    <li><%= image_tag("slide/lexus1.jpg", size: "300x370", alt: "LEXUS") %></li>
-		    <li><%= image_tag("slide/lexus2.jpg", size: "300x370", alt: "LEXUS") %></li>
-		    <li><%= image_tag("slide/lexus3.jpg", size: "300x370", alt: "LEXUS") %></li>
-		    <li><%= image_tag("slide/lexus4.jpg", size: "300x370", alt: "LEXUS") %></li>
-		    <li><%= image_tag("slide/lexus5.jpg", size: "300x370", alt: "LEXUS") %></li>
-	    </ul>
-    </div>
-  </div>
-</div>
+<!--トップページ スライド-->
+<%= render 'slide' %>
+
+
+
+<div id="contentsu" class="clearfix">
+ <div id="contentsu-in">
+   <div class="center_box">
+    <h2><%= image_tag("top/archi.jpg", size: "247x35", alt: "LEXUS") %></h2>
+      <ul class="tabs">
+       <li class="tab2 ab-l" id="tabA"><a href="#tab1" onclick="FocusTab('tabA'); ChangeTab('tab1'); return false;">House Design</a></li>
+       <li class="tab2 ab-r" id="tabB"><a class="tab3" href="#tab2" onclick="FocusTab('tabB'); ChangeTab('tab2'); return false;">Interior Design</a></li>
+       <li class="tab2 ab-r" id="tabC"><a class="tab3" href="#tab3" onclick="FocusTab('tabC'); ChangeTab('tab3'); return false;">Renovation Design</a></li>
+       <li class="tab2 ab-r" id="tabD"><a class="tab3" href="#tab4" onclick="FocusTab('tabD'); ChangeTab('tab4'); return false;">Commercial Space Design</a></li>
+      </ul>
+    <%= render 'tab' %>
+  </div><!--center_boxEND>-->
+   
+  <div id="right_box">
+    <h2><%= image_tag("top/designer.jpg", size: "155x35", alt: "LEXUS") %></h2>
+     <ul class="ab-2">
+      <li class="ab-l2"><a href="#">Architect Designer</a></li>
+     </ul>
+   <%= render 'tab2' %>
+   </div><!--right_boxEND>-->
+   
+ </div><!--contentsu-in END>-->
+</div><!--contentsu END>-->

@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
     $(document).ready(function(){
     	$('#photoGallery').bxSlider({
 			infiniteLoop:true,
@@ -25,4 +25,29 @@
     	});
   	});
 
+</script>
+
+<script type="text/javascript">
+function FocusTab(tabname,tabcolor) {
+      // タブの色
+      // 全部グレイに
+      document.getElementById('tabA').style.backgroundColor = '#000000';
+      document.getElementById('tabB').style.backgroundColor = '#000000';
+      document.getElementById('tabC').style.backgroundColor = '#000000';
+      document.getElementById('tabD').style.backgroundColor = '#000000';
+      // 指定箇所のみ色を変更
+      if(tabname) {
+         document.getElementById(tabname).style.backgroundColor = tabcolor;
+      }
+}
+
+function ChangeTab(tabname) {
+   // 全部消す
+   document.getElementById('tab1').style.display = 'none';
+   document.getElementById('tab2').style.display = 'none';
+   document.getElementById('tab3').style.display = 'none';
+   document.getElementById('tab4').style.display = 'none';
+   // 指定箇所のみ表示
+   document.getElementById(tabname).style.display = 'block';
+}
 </script>
