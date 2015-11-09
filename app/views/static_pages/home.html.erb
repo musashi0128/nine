@@ -1,7 +1,5 @@
 <!--トップページ スライド-->
-<%= render 'slide' %>
-
-
+<%= render 'shared/slide' %>
 
 <div id="contentsu" class="clearfix">
  <div id="contentsu-in">
@@ -13,7 +11,7 @@
        <li class="tab2 ab-r" id="tabC"><a class="tab3" href="#tab3" onclick="FocusTab('tabC'); ChangeTab('tab3'); return false;">Renovation Design</a></li>
        <li class="tab2 ab-r" id="tabD"><a class="tab3" href="#tab4" onclick="FocusTab('tabD'); ChangeTab('tab4'); return false;">Commercial Space Design</a></li>
       </ul>
-    <%= render 'tab' %>
+    <%= render 'shared/tab' %>
   </div><!--center_boxEND>-->
    
   <div id="right_box">
@@ -21,7 +19,7 @@
      <ul class="ab-2">
       <li class="ab-l2"><a href="#">Architect Designer</a></li>
      </ul>
-   <%= render 'tab2' %>
+   <%= render 'shared/tab2' %>
    </div><!--right_boxEND>-->
    
  </div><!--contentsu-in END>-->

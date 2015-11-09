@@ -63,9 +63,10 @@
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #4a4a4a;
 }
-/* flashボックスここまで */
+/* slideボックスここまで */
 
 
+/*Home用css*/
 #contentsu {
 	width: 100%;
 	background-color:#FFFFFF;
@@ -78,7 +79,6 @@
 	margin: 0 auto;
 	margin-bottom: 30px;
 	position: relative;
-	
 }
 
 #contentsu-in h2 {
@@ -127,8 +127,6 @@ li.ab-r {
 
 /* タブ部分 */
 
-
-/*tab部分*/
 .tab {
 	clear: left;
 	overflow: hidden;
@@ -172,9 +170,6 @@ li.ab-2-r {
 	font-weight: bold;
 	margin-left: 15px;
 }
-
-
-	
 
 .center_box {
 	width: 660px;
@@ -353,3 +348,267 @@ li.rin-2 {
 	margin-bottom: 20px;
 	border: 1px solid #999999;
 }
+/*Home用cssここまで*/
+
+
+/*Q&A用css*/
+
+
+#qa_box img{
+	margin-left: 14px;
+	margin-top: 40px;
+}
+
+#qa_box2 {
+	margin-left: 9px;
+	margin-top: 45px;
+}
+
+#left_box_text {
+	width: 500px;
+	float: left;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.left_text {
+	margin-left: 14px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+.left_text span.mi {
+	font-size: 15px;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 12px;
+}
+
+.left_text .t-box {
+	margin-left: 14px;
+	text-align: left;
+}
+
+#right_box_text {
+	width: 500px;
+	float: left;
+	text-align: left;
+}
+
+
+.right_text {
+	margin-left: 14px;
+	margin-top: 80px;
+	float: left;
+}
+
+.right_text2 {
+	margin-left: 14px;
+	margin-top: 60px;
+	float: left;
+}
+
+.right_text span.mi {
+	font-size: 15px;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 12px;
+}
+
+.right_text2 span.mi {
+	font-size: 15px;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 12px;
+}
+
+/*Q&A用css*/
+
+
+/*Avout用css*/
+
+#about_box {
+	margin: 40px 0;
+	
+}
+#about_box2 {
+	margin-bottom: 40px;
+}
+.about-h1 {
+	margin-left: 75px;
+}
+
+.content-box {
+	width: 100%;
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.content-main {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.content-main2 {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+	
+}
+.main-title h2 {
+	text-align: center;
+	color: #3f3f3f;
+	border-bottom: 1px solid #7f7f7f;
+	padding: 60px 0;
+	margin-bottom: 40px;
+}
+
+.m-box {
+	float: left;
+	position: relative;
+	padding: 5px;
+	width: 320px;
+	height: 250px;
+	margin-bottom: 30px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 25px;
+}
+
+.m-box h3 {
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.m-box p {
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+.m-box3 {
+	float: left;
+	position: relative;
+	padding: 5px;
+	width: 320px;
+	height: 300px;
+	margin-bottom: 30px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 25px;
+}
+.m-box3 h3 {
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.m-box3 p {
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.m-box2 {
+	float: left;
+	position: relative;
+	padding: 5px;
+	width: 320px;
+	height: 250px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 25px;
+}
+
+
+.m-box2 h3 {
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.m-box2 p {
+	font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+.m-box4 {
+	float: left;
+	position: relative;
+	padding: 5px;
+	width: 320px;
+	height: 300px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 25px;
+}
+
+.m-box4 h3 {
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.m-box4 p {
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.content-main2 ol {
+	margin: 0 auto;
+}
+
+.content-main2 ol li {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.content-main2 .number {
+	background: #3366cc;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.step-cont {
+	background: #fff;
+	height: 100px;
+	padding: 20px 20px 20px 100px;
+	overflow: hidden;
+}
+ 
+.step-cont h3 {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 60px;
+	width: 180px;
+	margin-right: 20px;
+	float: left;
+	border-right: 1px dashed #ddd;
+}
+
+.step-cont p {
+	font-size: 15px;
+}
+.bt-center {
+	width: 1000px;
+	margin: 50px 0;
+	text-align: center;
+}
+/*Avout用css*/
