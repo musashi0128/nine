@@ -350,91 +350,16 @@ li.rin-2 {
 }
 /*Home用cssここまで*/
 
-
-/*Q&A用css*/
-
-
-#qa_box img{
-	margin-left: 14px;
-	margin-top: 40px;
-}
-
-#qa_box2 {
-	margin-left: 9px;
-	margin-top: 45px;
-}
-
-#left_box_text {
-	width: 500px;
-	float: left;
-	text-align: left;
-	margin-top: 20px;
-}
-
-.left_text {
-	margin-left: 14px;
-	margin-top: 60px;
-	text-align: left;
-}
-
-.left_text span.mi {
-	font-size: 15px;
-	background-color: #333333;
-	color: #FFFFFF;
-	padding: 12px;
-}
-
-.left_text .t-box {
-	margin-left: 14px;
-	text-align: left;
-}
-
-#right_box_text {
-	width: 500px;
-	float: left;
-	text-align: left;
-}
-
-
-.right_text {
-	margin-left: 14px;
-	margin-top: 80px;
-	float: left;
-}
-
-.right_text2 {
-	margin-left: 14px;
-	margin-top: 60px;
-	float: left;
-}
-
-.right_text span.mi {
-	font-size: 15px;
-	background-color: #333333;
-	color: #FFFFFF;
-	padding: 12px;
-}
-
-.right_text2 span.mi {
-	font-size: 15px;
-	background-color: #333333;
-	color: #FFFFFF;
-	padding: 12px;
-}
-
-/*Q&A用css*/
-
-
 /*Avout用css*/
 
-#about_box {
+.title_box {
 	margin: 40px 0;
 	
 }
-#about_box2 {
+.title_mid {
 	margin-bottom: 40px;
 }
-.about-h1 {
+.about-h2 {
 	margin-left: 75px;
 }
 
@@ -612,3 +537,6 @@ li.rin-2 {
 	text-align: center;
 }
 /*Avout用css*/
+
+
+/*Produce用css*/

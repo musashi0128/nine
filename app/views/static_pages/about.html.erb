@@ -1,13 +1,13 @@
 <div id="contentsu">
   <div id="contentsu-in" class="clearfix">
-    <div id="about_box">
+    <div class="title_box">
      <%= image_tag("about/about.jpg", size: "177x70", alt: "about") %>
     </div>
-    <div id="about_box2">
+    <div class="title_mid">
      <%= image_tag("about/midashi.jpg", size: " 1000x20", alt: "midashi") %>
     </div>
-    <div class="about-h1">
-     <h1><%= image_tag("about/about-h1.png", size: " 850x150", alt: "midashi") %></h1>
+    <div class="about-h2">
+     <h2><%= image_tag("about/about-h1.png", size: " 850x150", alt: "midashi") %></h2>
     </div>
   </div><!--contentsu-in -->
 </div><!--contentsu -->
@@ -103,7 +103,7 @@
         </li>
       </ol>
       <div class="bt-center">
-       <button type="button" class="btn btn-info btn-lg">詳しくは Designer Produceへ</button>
+       <%= link_to '詳しくは Designer Produceへ', produce_path, { :class => "btn btn-info btn-lg" } %>
       </div>
     </div><!--content-main -->
     
