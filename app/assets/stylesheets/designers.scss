@@ -1,0 +1,656 @@
+.title_comp {
+  margin: 0  0 40px 25px;
+}
+
+.pic-box {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pic-box ul li.l1 {
+  float: left;
+  margin: 20px 25px;
+}
+
+.pic-box ul li.l2 {
+  float: left;
+  margin: 20px 0;
+}
+
+
+/*hover torafu*/
+
+.t1 {
+    background-image: image-url("profile/torafu/nike_over.jpg");
+    background-repeat: no-repeat;
+}
+.t1 a {
+    display: inline-block;
+}
+.t1 a:hover img {
+    visibility: hidden;
+}
+.t2 {
+    background-image: image-url("profile/torafu/kouhoku_over.jpg");
+    background-repeat: no-repeat;
+}
+.t2 a {
+    display: inline-block;
+}
+.t2 a:hover img {
+    visibility: hidden;
+}
+.t3 {
+    background-image: image-url("profile/torafu/inogashira_over.jpg");
+    background-repeat: no-repeat;
+}
+.t3 a {
+    display: inline-block;
+}
+.t3 a:hover img {
+    visibility: hidden;
+}
+.t4 {
+    background-image: image-url("profile/torafu/harman_over.jpg");
+    background-repeat: no-repeat;
+}
+.t4 a {
+    display: inline-block;
+}
+.t4 a:hover img {
+    visibility: hidden;
+}
+.t5 {
+    background-image: image-url("profile/torafu/kaiten_over.jpg");
+    background-repeat: no-repeat;
+}
+.t5 a {
+    display: inline-block;
+}
+.t5 a:hover img {
+    visibility: hidden;
+}
+.t6 {
+    background-image: image-url("profile/torafu/insta_over.jpg");
+    background-repeat: no-repeat;
+}
+.t6 a {
+    display: inline-block;
+}
+.t6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover nakamurah*/
+
+.nh1 {
+    background-image: image-url("profile/nakamurah/bird_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh1 a {
+    display: inline-block;
+}
+.nh1 a:hover img {
+    visibility: hidden;
+}
+.nh2 {
+    background-image: image-url("profile/nakamurah/tisou_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh2 a {
+    display: inline-block;
+}
+.nh2 a:hover img {
+    visibility: hidden;
+}
+.nh3 {
+    background-image: image-url("profile/nakamurah/tokyo_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh3 a {
+    display: inline-block;
+}
+.nh3 a:hover img {
+    visibility: hidden;
+}
+.nh4 {
+    background-image: image-url("profile/nakamurah/lanvin_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh4 a {
+    display: inline-block;
+}
+.nh4 a:hover img {
+    visibility: hidden;
+}
+.nh5 {
+    background-image: image-url("profile/nakamurah/crystal_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh5 a {
+    display: inline-block;
+}
+.nh5 a:hover img {
+    visibility: hidden;
+}
+.nh6 {
+    background-image: image-url("profile/nakamurah/lotus_over.jpg");
+    background-repeat: no-repeat;
+}
+.nh6 a {
+    display: inline-block;
+}
+.nh6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover fujimoto*/
+
+.f1 {
+    background-image: image-url("profile/fujimoto/housen_over.jpg");
+    background-repeat: no-repeat;
+}
+.f1 a {
+    display: inline-block;
+}
+.f1 a:hover img {
+    visibility: hidden;
+}
+.f2 {
+    background-image: image-url("profile/fujimoto/housebefore_over.jpg");
+    background-repeat: no-repeat;
+}
+.f2 a {
+    display: inline-block;
+}
+.f2 a:hover img {
+    visibility: hidden;
+}
+.f3 {
+    background-image: image-url("profile/fujimoto/housek_over.jpg");
+    background-repeat: no-repeat;
+}
+.f3 a {
+    display: inline-block;
+}
+.f3 a:hover img {
+    visibility: hidden;
+}
+.f4 {
+    background-image: image-url("profile/fujimoto/housena_over.jpg");
+    background-repeat: no-repeat;
+}
+.f4 a {
+    display: inline-block;
+}
+.f4 a:hover img {
+    visibility: hidden;
+}
+.f5 {
+    background-image: image-url("profile/fujimoto/sacai_over.jpg");
+    background-repeat: no-repeat;
+}
+.f5 a {
+    display: inline-block;
+}
+.f5 a:hover img {
+    visibility: hidden;
+}
+.f6 {
+    background-image: image-url("profile/fujimoto/taiwan_over.jpg");
+    background-repeat: no-repeat;
+}
+.f6 a {
+    display: inline-block;
+}
+.f6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover tanijiri*/
+
+.tj1 {
+    background-image: image-url("profile/tanijiri/cafe_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj1 a {
+    display: inline-block;
+}
+.tj1 a:hover img {
+    visibility: hidden;
+}
+.tj2 {
+    background-image: image-url("profile/tanijiri/shinpen_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj2 a {
+    display: inline-block;
+}
+.tj2 a:hover img {
+    visibility: hidden;
+}
+.tj3 {
+    background-image: image-url("profile/tanijiri/studious_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj3 a {
+    display: inline-block;
+}
+.tj3 a:hover img {
+    visibility: hidden;
+}
+.tj4 {
+    background-image: image-url("profile/tanijiri/jigozen_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj4 a {
+    display: inline-block;
+}
+.tj4 a:hover img {
+    visibility: hidden;
+}
+.tj5 {
+    background-image: image-url("profile/tanijiri/resort_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj5 a {
+    display: inline-block;
+}
+.tj5 a:hover img {
+    visibility: hidden;
+}
+.tj6 {
+    background-image: image-url("profile/tanijiri/earth_over.jpg");
+    background-repeat: no-repeat;
+}
+.tj6 a {
+    display: inline-block;
+}
+.tj6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover hirata*/
+
+.h1 {
+    background-image: image-url("profile/hirata/sarugaku_over.jpg");
+    background-repeat: no-repeat;
+}
+.h1 a {
+    display: inline-block;
+}
+.h1 a:hover img {
+    visibility: hidden;
+}
+.h2 {
+    background-image: image-url("profile/hirata/yoshioka_over.jpg");
+    background-repeat: no-repeat;
+}
+.h2 a {
+    display: inline-block;
+}
+.h2 a:hover img {
+    visibility: hidden;
+}
+.h3 {
+    background-image: image-url("profile/hirata/ieno_over.jpg");
+    background-repeat: no-repeat;
+}
+.h3 a {
+    display: inline-block;
+}
+.h3 a:hover img {
+    visibility: hidden;
+}
+.h4 {
+    background-image: image-url("profile/hirata/one_over.jpg");
+    background-repeat: no-repeat;
+}
+.h4 a {
+    display: inline-block;
+}
+.h4 a:hover img {
+    visibility: hidden;
+}
+.h5 {
+    background-image: image-url("profile/hirata/masuya_over.jpg");
+    background-repeat: no-repeat;
+}
+.h5 a {
+    display: inline-block;
+}
+.h5 a:hover img {
+    visibility: hidden;
+}
+.h6 {
+    background-image: image-url("profile/hirata/foam_over.jpg");
+    background-repeat: no-repeat;
+}
+.h6 a {
+    display: inline-block;
+}
+.h6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover yosimura*/
+
+.y1 {
+    background-image: image-url("profile/yoshimura/bayside_over.jpg");
+    background-repeat: no-repeat;
+}
+.y1 a {
+    display: inline-block;
+}
+.y1 a:hover img {
+    visibility: hidden;
+}
+.y2 {
+    background-image: image-url("profile/yoshimura/tdw_over.jpg");
+    background-repeat: no-repeat;
+}
+.y2 a {
+    display: inline-block;
+}
+.y2 a:hover img {
+    visibility: hidden;
+}
+.y3 {
+    background-image: image-url("profile/yoshimura/saikouji_over.jpg");
+    background-repeat: no-repeat;
+}
+.y3 a {
+    display: inline-block;
+}
+.y3 a:hover img {
+    visibility: hidden;
+}
+.y4 {
+    background-image: image-url("profile/yoshimura/mezzante_over.jpg");
+    background-repeat: no-repeat;
+}
+.y4 a {
+    display: inline-block;
+}
+.y4 a:hover img {
+    visibility: hidden;
+}
+.y5 {
+    background-image: image-url("profile/yoshimura/tbwa_over.jpg");
+    background-repeat: no-repeat;
+}
+.y5 a {
+    display: inline-block;
+}
+.y5 a:hover img {
+    visibility: hidden;
+}
+.y6 {
+    background-image: image-url("profile/yoshimura/eaves_over.jpg");
+    background-repeat: no-repeat;
+}
+.y6 a {
+    display: inline-block;
+}
+.y6 a:hover img {
+    visibility: hidden;
+}
+
+
+/*hover nakamurar*/
+
+.nr1 {
+    background-image: image-url("profile/nakamurar/short_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr1 a {
+    display: inline-block;
+}
+.nr1 a:hover img {
+    visibility: hidden;
+}
+.nr2 {
+    background-image: image-url("profile/nakamurar/plants_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr2 a {
+    display: inline-block;
+}
+.nr2 a:hover img {
+    visibility: hidden;
+}
+.nr3 {
+    background-image: image-url("profile/nakamurar/hechima_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr3 a {
+    display: inline-block;
+}
+.nr3 a:hover img {
+    visibility: hidden;
+}
+.nr4 {
+    background-image: image-url("profile/nakamurar/shelf_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr4 a {
+    display: inline-block;
+}
+.nr4 a:hover img {
+    visibility: hidden;
+}
+.nr5 {
+    background-image: image-url("profile/nakamurar/snow_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr5 a {
+    display: inline-block;
+}
+.nr5 a:hover img {
+    visibility: hidden;
+}
+.nr6 {
+    background-image: image-url("profile/nakamurar/garden_over.jpg");
+    background-repeat: no-repeat;
+}
+.nr6 a {
+    display: inline-block;
+}
+.nr6 a:hover img {
+    visibility: hidden;
+}
+
+/*hover nagayama*/
+
+.ng1 {
+    background-image: image-url("profile/nagayama/kiya_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng1 a {
+    display: inline-block;
+}
+.ng1 a:hover img {
+    visibility: hidden;
+}
+.ng2 {
+    background-image: image-url("profile/nagayama/oka_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng2 a {
+    display: inline-block;
+}
+.ng2 a:hover img {
+    visibility: hidden;
+}
+.ng3 {
+    background-image: image-url("profile/nagayama/ante_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng3 a {
+    display: inline-block;
+}
+.ng3 a:hover img {
+    visibility: hidden;
+}
+.ng4 {
+    background-image: image-url("profile/nagayama/kayaba_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng4 a {
+    display: inline-block;
+}
+.ng4 a:hover img {
+    visibility: hidden;
+}
+.ng5 {
+    background-image: image-url("profile/nagayama/sisii_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng5 a {
+    display: inline-block;
+}
+.ng5 a:hover img {
+    visibility: hidden;
+}
+.ng6 {
+    background-image: image-url("profile/nagayama/afloat_over.jpg");
+    background-repeat: no-repeat;
+}
+.ng6 a {
+    display: inline-block;
+}
+.ng6 a:hover img {
+    visibility: hidden;
+}
+
+/*hover igarashi*/
+
+.ig1 {
+    background-image: image-url("profile/igarashi/houseo_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig1 a {
+    display: inline-block;
+}
+.ig1 a:hover img {
+    visibility: hidden;
+}
+.ig2 {
+    background-image: image-url("profile/igarashi/housem_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig2 a {
+    display: inline-block;
+}
+.ig2 a:hover img {
+    visibility: hidden;
+}
+.ig3 {
+    background-image: image-url("profile/igarashi/joutai_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig3 a {
+    display: inline-block;
+}
+.ig3 a:hover img {
+    visibility: hidden;
+}
+.ig4 {
+    background-image: image-url("profile/igarashi/aida_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig4 a {
+    display: inline-block;
+}
+.ig4 a:hover img {
+    visibility: hidden;
+}
+.ig5 {
+    background-image: image-url("profile/igarashi/hororo_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig5 a {
+    display: inline-block;
+}
+.ig5 a:hover img {
+    visibility: hidden;
+}
+.ig6 {
+    background-image: image-url("profile/igarashi/symbi_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig6 a {
+    display: inline-block;
+}
+.ig6 a:hover img {
+    visibility: hidden;
+}
+
+/*hover oonishi*/
+
+.o1 {
+    background-image: image-url("profile/oonishi/yumeno_over.jpg");
+    background-repeat: no-repeat;
+}
+.o1 a {
+    display: inline-block;
+}
+.o1 a:hover img {
+    visibility: hidden;
+}
+.o2 {
+    background-image: image-url("profile/oonishi/rasen_over.jpg");
+    background-repeat: no-repeat;
+}
+.o2 a {
+    display: inline-block;
+}
+.o2 a:hover img {
+    visibility: hidden;
+}
+.o3 {
+    background-image: image-url("profile/oonishi/tisou_over.jpg");
+    background-repeat: no-repeat;
+}
+.o3 a {
+    display: inline-block;
+}
+.o3 a:hover img {
+    visibility: hidden;
+}
+.o4 {
+    background-image: image-url("profile/oonishi/mado_over.jpg");
+    background-repeat: no-repeat;
+}
+.ig4 a {
+    display: inline-block;
+}
+.o4 a:hover img {
+    visibility: hidden;
+}
+.o5 {
+    background-image: image-url("profile/oonishi/kemono_over.jpg");
+    background-repeat: no-repeat;
+}
+.o5 a {
+    display: inline-block;
+}
+.o5 a:hover img {
+    visibility: hidden;
+}
+.o6 {
+    background-image: image-url("profile/oonishi/insta_over.jpg");
+    background-repeat: no-repeat;
+}
+.o6 a {
+    display: inline-block;
+}
+.o6 a:hover img {
+    visibility: hidden;
+}

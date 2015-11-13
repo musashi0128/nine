@@ -1,0 +1,68 @@
+<div id="contentsu" class="clearfix">
+  <div id="contentsus-in">
+    <div class="title-news">
+      <%= image_tag("news/news.jpg", size: "100x32", alt: "business") %>
+    </div>
+   <div class="tabsbox">
+   <ul class="tabus">
+      <li class="tab02" id="taba"><a href="#tab01" onclick="FocusTab('taba','#09F'); ChangeTab('tab01'); return false;">1月</a></li>
+      <li class="tab02" id="tabb"><a class="tab03" href="#tab02" onclick="FocusTab('tabb','#09F'); ChangeTab('tab02'); return false;">2月</a></li>
+      <li class="tab02" id="tabc"><a class="tab03" href="#tab03" onclick="FocusTab('tabc','#09F'); ChangeTab('tab03'); return false;">3月</a></li>
+      <li class="tab02" id="tabd"><a class="tab03" href="#tab04" onclick="FocusTab('tabd','#09F'); ChangeTab('tab04'); return false;">4月</a></li>
+      <li class="tab02" id="tabe"><a class="tab03" href="#tab05" onclick="FocusTab('tabe','#09F'); ChangeTab('tab05'); return false;">5月</a></li>
+      <li class="tab02" id="tabf"><a class="tab03" href="#tab06" onclick="FocusTab('tabf','#09F'); ChangeTab('tab06'); return false;">6月</a></li>
+      <li class="tab02" id="tabg"><a class="tab03" href="#tab07" onclick="FocusTab('tabg','#09F'); ChangeTab('tab07'); return false;">7月</a></li>
+      <li class="tab02" id="tabh"><a class="tab03" href="#tab08" onclick="FocusTab('tabh','#09F'); ChangeTab('tab08'); return false;">8月</a></li>
+      <li class="tab02" id="tabi"><a class="tab03" href="#tab09" onclick="FocusTab('tabi','#09F'); ChangeTab('tab09'); return false;">9月</a></li>
+      <li class="tab02" id="tabj"><a class="tab03" href="#tab010" onclick="FocusTab('tabj','#09F'); ChangeTab('tab010'); return false;">10月</a></li>
+      <li class="tab02" id="tabk"><a class="tab03" href="#tab011" onclick="FocusTab('tabk','#09F'); ChangeTab('tab011'); return false;">11月</a></li>
+      <li class="tab02" id="tabl"><a class="tab03" href="#tab012" onclick="FocusTab('tabl','#09F'); ChangeTab('tab012'); return false;">12月</a></li>
+   </ul>
+ 
+  <%= render 'shared/tabs' %>
+   
+  </div><!--tabsboxend-->
+  
+  </div><!--contentsu-in end-->
+</div><!--contentsu end-->
+
+<script type="text/javascript"><!--
+function FocusTab(tabname,tabcolor) {
+      // タブの色
+      // 全部グレイに
+      document.getElementById('taba').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabb').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabc').style.backgroundColor = '#FFFFFF';
+	  document.getElementById('tabd').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabe').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabf').style.backgroundColor = '#FFFFFF';
+	  document.getElementById('tabg').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabh').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabi').style.backgroundColor = '#FFFFFF';
+	  document.getElementById('tabj').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabk').style.backgroundColor = '#FFFFFF';
+      document.getElementById('tabl').style.backgroundColor = '#FFFFFF';
+      // 指定箇所のみ色を変更
+      if(tabname) {
+         document.getElementById(tabname).style.backgroundColor = tabcolor;
+      }
+   }
+
+function ChangeTab(tabname) {
+   // 全部消す
+   document.getElementById('tab01').style.display = 'none';
+   document.getElementById('tab02').style.display = 'none';
+   document.getElementById('tab03').style.display = 'none';
+   document.getElementById('tab04').style.display = 'none';
+   document.getElementById('tab05').style.display = 'none';
+   document.getElementById('tab06').style.display = 'none';
+   document.getElementById('tab07').style.display = 'none';
+   document.getElementById('tab08').style.display = 'none';
+   document.getElementById('tab09').style.display = 'none';
+   document.getElementById('tab010').style.display = 'none';
+   document.getElementById('tab011').style.display = 'none';
+   document.getElementById('tab012').style.display = 'none';
+   // 指定箇所のみ表示
+   document.getElementById(tabname).style.display = 'block';
+}
+// --></script>
