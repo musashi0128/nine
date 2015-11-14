@@ -1,0 +1,56 @@
+<div id="contentsu" class="top-padi">
+ <div id="contentsu-in" class="clearfix" >
+
+  <%= form_for @inquiry, :url => inquiry_thanks_path do |f| %>
+  
+  <div class="top-margin">
+    <%= render 'shared/sidebar' %>
+    <div id="main-footer">
+        <h3>
+         <%= image_tag("footer/otoiawase_midashi.png", size: "710x90", alt: "お問い合わせ") %>
+        </h3>
+    <div class="sections">
+        <h4>
+         <%= image_tag("footer/contact-2.jpg", size: "710x37", alt: "STEP2") %>
+        </h4>
+         <p>
+         以下の内容で問題なければ、「この内容で送信する」ボタンを押してください。
+         </p>
+    <table class="tables">
+      <tr>
+        <th>お名前</th>
+        <td>
+          <%= f.hidden_field :name %>
+          <strong><%= @inquiry.name %></strong>
+        </td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td>
+          <%= f.hidden_field :email %>
+          <strong><%= @inquiry.email %></strong>
+        </td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td>
+          <%= f.hidden_field :tel %>
+          <strong><%= @inquiry.tel %></strong>
+        </td>
+      </tr>
+      <tr>
+        <th>お問い合わせ内容</th>
+        <td>
+          <%= f.hidden_field :message %>
+          <strong class="f-sup"><%= simple_format(@inquiry.message) %></strong>
+        </td>
+      </tr>
+    </table>
+    <%= f.submit '送信する', :class => 'btn btn-primary btn-2' %>
+    </div><!--section end-->
+    </div><!--main-footer end-->
+  </div><!--top-margin end-->
+  <% end %>
+
+ </div>
+</div>

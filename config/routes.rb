@@ -11,14 +11,23 @@ Rails.application.routes.draw do
   
   
   #designer系
-  get 'torafu' => 'designers#torafu'
-  get 'fujimoto' => 'designers#fujimoto'
-  get 'nakamurah' => 'designers#nakamurah'
-  get 'nakamurar' => 'designers#nakamurar'
-  get 'nagayama' => 'designers#nagayama'
-  get 'hirata' => 'designers#hirata'
-  get 'igarashi' => 'designers#igarashi'
-  get 'oonishi' => 'designers#oonishi'
-  get 'yoshimura' => 'designers#yoshimura'
-  get 'tanijiri' => 'designers#tanijiri'
+  get 'designer/torafu' => 'designers#torafu'
+  get 'designer/fujimoto' => 'designers#fujimoto'
+  get 'designer/nakamurah' => 'designers#nakamurah'
+  get 'designer/nakamurar' => 'designers#nakamurar'
+  get 'designer/nagayama' => 'designers#nagayama'
+  get 'designer/hirata' => 'designers#hirata'
+  get 'designer/igarashi' => 'designers#igarashi'
+  get 'designer/oonishi' => 'designers#oonishi'
+  get 'designer/yoshimura' => 'designers#yoshimura'
+  get 'designer/tanijiri' => 'designers#tanijiri'
+  
+  #mailer
+  get 'inquiry' => 'inquiry#index'                       #入力画面
+  post 'inquiry/confirm' => 'inquiry#confirm'             #確認画面
+  post 'inquiry/thanks' => 'inquiry#thanks'                #送信完了
+  get 'company' => 'inquiry#company'
+  get 'policy' => 'inquiry#policy'
+  get 'terms' => 'inquiry#terms'
+  get 'guideline' => 'inquiry#guideline'
 end
