@@ -1,0 +1,49 @@
+<div id="contentsu" class="top-padi">
+ <div id="contentsu-in" class="clearfix" >
+   
+   <div class="top-margin">
+    <%= render 'shared/sidebar' %>
+    <div id="main-footer">
+        <h3>
+         <%= image_tag("footer/otoiawase_midashi.png", size: "710x90", alt: "お問い合わせ") %>
+        </h3>
+    <div class="sections">
+        <h4>
+         <%= image_tag("footer/contact-3.jpg", size: "710x37", alt: "STEP2") %>
+        </h4>
+         <p>
+         お問い合わせ頂きましてありがとうございます。現在、弊社の担当スタッフが調査しておりますので、しばしお待ち頂きますようお願い致します。<br>
+         なお、営業時間が月曜から金曜の10時から19時となりますので、大変恐縮ですが、土日に頂いたお問い合わせは翌営業日の対応とさせていただきます。（祝日、年末年始は除きます）
+         </p>
+    <table class="tables">
+      <tr>
+        <th>お名前</th>
+        <td>
+          <strong><%= @inquiry.name %>様</strong>
+        </td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td>
+          <strong><%= @inquiry.email %></strong>
+        </td>
+      </tr>
+      <tr>
+      <th>電話番号</th>
+        <td>
+          <strong><%= @inquiry.tel %></strong>
+        </td>
+      </tr>
+      <tr>
+        <th>お問い合わせ内容</th>
+        <td>
+          <strong class="f-sup"><%= simple_format(@inquiry.message) %></strong>
+        </td>
+      </tr>
+    </table>
+    <%= link_to image_tag("footer/contact-btn4.png", size: "284x34", alt: "STEP2", class: "btn-3" ), root_path %>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,158 @@
+.top-margin{
+  margin-top: 40px;
+}
+
+#side {
+	float:left;
+	width:240px;
+}
+
+#side dl {
+	margin:0 0 40px;
+}
+
+#side dt {
+	margin:0 0 5px;
+}
+
+#side dd {
+	background-color:#FFFFFF;
+	border:1px solid #D7D7D7;
+}
+
+#side2 {
+	float:left;
+	width:240px;
+}
+
+#side2 dl {
+	margin:0 0 40px;
+}
+
+#side2 dt {
+	margin:0 0 10px;
+}
+
+#side2 dd {
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	margin-bottom:5px;
+}
+
+
+#main-footer {
+	background-color:#FFFFFF;
+	border: 2px solid #E8E8E8;
+	margin-left:10px;
+	width: 730px;
+	float: right;
+	padding: 10px;
+}
+
+#main-footer h3 {
+	border-bottom: 1px dashed #333333;
+}
+
+#main-footer .sections {
+	margin:40px 0 0;
+	overflow:hidden;
+}
+
+#main-footer .sections h4 {
+	margin:0 0 25px;
+}
+
+#main-footer .sections p {
+	margin:0 0 25px;
+	padding:0 10px;
+}
+
+#main-footer .sections p.tb {
+	margin:0 0 25px;
+	font-size: 18px;
+}
+
+.sections .tables {
+	margin: 50px 0 50px 10px;
+	width: 690px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.sections .tables th {
+	background: none repeat scroll 0 0 #F6F6F6;
+	border: 1px solid #999999;
+	font-weight: bold;
+	width: 190px;
+}
+
+.sections .tables td {
+	border: 1px solid #999999;
+}
+
+.sections .tables th, .sections .tables td {
+	padding: 33px 15px;
+	text-align: left;
+}
+
+.sections .tables td span {
+	color:#797979;
+	font-size:10px;
+}
+
+.sections .tables td textarea {
+	border:1px solid #999999;
+}
+.sections .btn-1 {
+  margin-left: 200px;
+  text-align: center;
+	padding: 10px 100px;
+}
+.sections .btn-2 {
+  margin-left: 250px;
+  text-align: center;
+	padding: 10px 100px;
+}
+
+.sections .btn-3 {
+  margin-left: 250px;
+}
+.f-sup {
+  font-size: 14px;
+}
+
+
+/* company */
+
+table.hyouki {
+	border: 3px solid #333333;
+	margin: 30px 50px;
+	empty-cells: show;
+	font-size: inherit;
+	border-collapse: collapse;
+}
+
+
+table.hyouki th {
+	background-color:#FAFAF7;
+	width: 20%;
+	border-right: medium none;
+	line-height: 160%;
+}
+
+table.hyouki td {
+	border-left: medium none;
+}
+
+table.hyouki th, table.hyouki td {
+	border: 1px solid #999999;
+	padding: 15px;
+}
+
+table.hyouki a.link {
+	color:#09F;
+}
+
+table.hyouki a.link:hover {
+	color:#06F;
+}

@@ -38,4 +38,17 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  # Don't care if the mailer can't send.
+config.action_mailer.raise_delivery_errors = true
+config.action_mailer.default_url_options = { :host => 'techacademy-musashi0128-1.c9.io' } #ide.c9.io/musashi0128/techacademy http://0.0.0.0:8080
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+  :address => 'smtp.gmail.com',
+  :port => 587,
+  :domain => 'gmail.com',
+  :user_name => 'k.miyamoto.0128@gmail.com',
+  :password => 'inalitxbpnradgih',
+  :authentication => :plain,
+  :enable_starttls_auto => true,
+}  
 end
