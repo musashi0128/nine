@@ -156,3 +156,47 @@ table.hyouki a.link {
 table.hyouki a.link:hover {
 	color:#06F;
 }
+
+
+/* terms */
+
+#main-footer .sectons dl {
+	padding:0 10px;
+}
+
+#main-footer .sections dl dt {
+	border-top:1px solid #999999;
+	font-size:16px;
+	font-weight:bold;
+	margin:0 0 15px;
+	padding:25px 0 0;
+}
+
+#main-footer .sections dl dd {
+	margin:0 0 25px;
+}
+
+#main-footer .sections h4 span {
+	background-color:#006;
+	color:#FFFFFF;
+	padding:5px;
+}
+
+#main-footer .sections dd a.link {
+	color:#09F;
+}
+
+#main-footer .sections dd a.link:hover {
+	color:#06F;
+}
+
+.sections dd span.color {
+  color:#09F;
+	font-weight: normal;
+	outline: medium none;
+	text-decoration: none;
+}
+
+.sections dd a:hover {
+	color:#06F;
+}
